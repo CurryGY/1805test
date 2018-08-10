@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>无标题文档</title>
+<style>
+#box{width:100px;height:100px;background:#f00;}
+</style>
+</head>
+
+<body>
+<div id="box">dadad</div>
+</body>
+<script>
+var oDiv = document.getElementById("box");
+oDiv.onclick = function(){
+	this.style.background = "#0f0";
+	this.innerHTML = "aaaaaaaaaaaaaaaaaa"
+	}
+oDiv.onmouseover = function(){
+	this.style.background = "orange"
+	}
+oDiv.onmouseout = function(){
+	this.style.background = "gray"
+	}
+</script>
+</html>
